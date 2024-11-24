@@ -1,6 +1,6 @@
 const Nav = () => {
     return (
-        <nav className="flex items-center justify-center py-5 z-50 fixed left-0 right-0 top-0 bg-[#fefefe]">
+        <nav className="flex items-center justify-center py-3 z-50 fixed left-0 right-0 top-0 bg-[#fefefe]">
             <div className="my_fixed_width">
                 <div className="flex items-center justify-between">
                     <h4 className="font-semibold text-[0.99rem] text-[#525454]">

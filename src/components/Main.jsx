@@ -7,8 +7,8 @@ const Main = () => {
     };
 
     return (
-        <main className="absolute inset-0 z-40 flex items-center justify-center mt-[5rem] md:mt-2">
-            <div className="my_fixed_width grid md:grid-cols-2 gap-10 items-center">
+        <main className="flex items-center justify-center min-h-[45rem] md:mt-2">
+            <div className="my_fixed_width grid md:grid-cols-2 gap-10 items-center mt-[5.8rem] md:mt-0">
                 <div className="flex flex-col gap-6 text-[#525454]">
                     <div>
                         <motion.div
