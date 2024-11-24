@@ -7,8 +7,8 @@ const Main = () => {
     };
 
     return (
-        <main className="flex items-center justify-center min-h-[45rem] md:mt-2">
-            <div className="my_fixed_width grid md:grid-cols-2 gap-10 items-center mt-[5.8rem] md:mt-0">
+        <main className="flex items-center justify-center min-h-[45rem]">
+            <div className="my_fixed_width grid md:grid-cols-2 gap-10 items-center mt-[6.1rem] md:mt-3">
                 <div className="flex flex-col gap-6 text-[#525454]">
                     <div>
                         <motion.div
