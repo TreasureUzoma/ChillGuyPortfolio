@@ -21,7 +21,7 @@ const Main = () => {
                             <span className="bg-[#525252] px-4 py-2 rounded-full text-white">
                                 Open
                             </span>
-                            <span className="pr-3">for projects 2024</span>
+                            <span className="pr-3">for projects {new Date().getFullYear()}</span>
                         </motion.div>
                     </div>
                     <motion.h1
