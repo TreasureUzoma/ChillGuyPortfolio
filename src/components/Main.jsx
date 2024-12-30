@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import GetStarted from "./ui/GetStarted";
 
 const Main = () => {
     const variants = {
@@ -21,7 +22,9 @@ const Main = () => {
                             <span className="bg-[#525252] px-4 py-2 rounded-full text-white">
                                 Open
                             </span>
-                            <span className="pr-3">for projects {new Date().getFullYear()}</span>
+                            <span className="pr-3">
+                                for projects {(new Date().getFullYear())}
+                            </span>
                         </motion.div>
                     </div>
                     <motion.h1
@@ -53,13 +56,8 @@ const Main = () => {
                         variants={variants}
                         className="flex items-center justify-start gap-4"
                     >
-                        <a
-                            target="_blank"
-                            className="bg-[#525454] text-white px-3 py-2 text-[0.9rem] font-semibold rounded-lg border border-1 border-[#525454] hover:bg-white hover:text-[#525454]"
-                            href="https://wa.me/+2349133354993"
-                        >
-                            Get Started
-                        </a>
+                        {" "}
+                        <GetStarted />
                         <a
                             href="https://treasureuzoma.netlify.app"
                             target="_blank"
