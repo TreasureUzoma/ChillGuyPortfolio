@@ -1,10 +1,10 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/github-roast/", "destination": "https://github-profile-roast.vercel.app/" },
+    { "source": "/ai/", "destination": "https://treasurepageai.vercel.app/api/" },
     {
-      "source": "/github-roast/:match*",
-      "destination": "https://github-profile-roast.vercel.app/:match*"
+      "source": "/ai/:match*",
+      "destination": "https://treasurepageai.vercel.app/api/:match*"
     }
   ]
 }
