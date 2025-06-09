@@ -1,7 +1,10 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/blog", "destination": "https://idolodevblog.vercel.app" },
-    { "source": "/blog/(.*)", "destination": "https://idolodevblog.vercel.app/$1" }
+    { "source": "/github-roast/", "destination": "https://github-profile-roast.vercel.app/" },
+    {
+      "source": "/github-roast/:match*",
+      "destination": "https://github-profile-roast.vercel.app/:match*"
+    }
   ]
 }
