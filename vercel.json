@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/blog/", "destination": "https://idolodevblog.vercel.app/" }]
+}
